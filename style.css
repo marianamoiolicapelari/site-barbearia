@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background: #f8f6f6;
+  background: #d4d3d3;
 }
 
 header {
@@ -61,7 +61,7 @@ nav a:hover {
 
 .principal {
   padding: 3em 0;
-  background: #f8f6f6;
+  background: #d4d3d3;
   width: 940px;
   margin: 0 auto;
 }
@@ -87,12 +87,16 @@ nav a:hover {
 
 .mapa {
   padding: 3em 0;
-  background: #f8f6f6;
+  background: #d4d3d3;
 }
 
 .mapa-conteudo {
-  width: 940px;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
+  width: 940px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .mapa p {
@@ -102,7 +106,7 @@ nav a:hover {
 
 .beneficios {
   padding: 3em 0;
-  background: #f8f6f6;
+  background: #d4d3d3;
 }
 
 .conteudo-beneficios {
@@ -111,10 +115,10 @@ nav a:hover {
 }
 
 .lista-beneficios {
-  width: 50%;
+  width: 49%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .itens {
@@ -125,7 +129,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/*firt-child = uso quando quero apenas o primeiro item com alguma função*/
+/*firt-child = uso quando quero apenas o primeiro item com alguma formatação*/
 
 .itens:before {
   content: '✂ ';
@@ -135,7 +139,7 @@ nav a:hover {
   width: 50%;
   opacity: 1;
   transition: 400ms;
-  box-shadow: 7px 7px 10px #f8f6f6;
+  box-shadow: 10px 10px 13px #ffffff;
 }
 
 .imagem-beneficios:hover {
