@@ -5,6 +5,7 @@ body {
 
 header {
   background: #807e7e;
+  width: 100%;
   padding: 30px 0;
 }
 
@@ -69,6 +70,7 @@ nav a:hover {
 .principal p {
   margin: 0 0 1em;
   font-size: 1.5em;
+  text-align: justify;
 }
 
 .principal strong {
@@ -86,7 +88,6 @@ nav a:hover {
 }
 
 .mapa {
-  padding: 1em 0;
   background: #d4d3d3;
 }
 
@@ -100,9 +101,9 @@ nav a:hover {
 }
 
 .mapa p {
-  margin: 0 0 2em;
-  text-align: center;
   font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .beneficios {
@@ -154,17 +155,23 @@ nav a:hover {
 
 /* css pagina produtos*/
 
-.produtos {
+.container {
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   padding: 100px 0;
 }
 
-.produtos li {
-  background: #ffffff;
-  display: inline-block;
+.cabelo,
+.barba,
+.cabelobarba {
+  width: 400px;
+  height: 500px;
   text-align: center;
   width: 30%;
+  background: #ffffff;
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
@@ -183,22 +190,24 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-  font-size: 2.5em;
+  font-size: 35px;
 }
 
 .produtos h2 {
-  font-size: 2em;
+  font-size: 30px;
   font-weight: bold;
+  margin: 10px;
 }
 
 .produto-descricao {
-  font-size: 1.5em;
+  font-size: 24px;
+  margin: 10px;
 }
 
 .produto-preco {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 footer {
@@ -286,8 +295,9 @@ th {
   .principal,
   .conteudo-beneficios,
   .mapa-conteudo,
-  .video {
-    width: 90%;
+  .video,
+  .container {
+    width: 85%;
   }
 
   .logo {
@@ -309,12 +319,46 @@ th {
     position: static;
   }
 
+  nav li {
+    margin: 0 0 0 30px;
+  }
+
   nav a {
     font-size: 18px;
+  }
+
+  .titulo-principal {
+    font-size: 2em;
+  }
+
+  .principal p {
+    font-size: 1em;
+  }
+
+  .mapa p {
+    font-size: 1em;
+    margin: 0 1.1em 1em 1.1em;
   }
 
   .lista-beneficios,
   .imagem-beneficios {
     width: 100%;
+  }
+
+  .itens {
+    line-height: 1.25;
+    font-size: 0.75em;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cabelo,
+  .barba,
+  .cabelobarba {
+    width: 100%;
+    margin: 10px 20px;
   }
 }
