@@ -5,31 +5,30 @@ body {
 
 header {
   background: #807e7e;
-  width: 100%;
-  padding: 30px 0;
+  margin: 0;
+  padding: 20px;
 }
 
 .caixa {
-  position: relative;
   width: 1200px;
+  position: relative;
   margin: 0 auto;
 }
 
 .logo,
 .logo-branco {
-  position: relative;
   width: 300px;
-  margin: 10 auto;
+  margin: 20px 0;
 }
 
 nav {
   position: absolute;
-  top: 110px;
+  top: 0;
   right: 0;
 }
 
 nav li {
-  display: inline;
+  display: inline-flex;
   margin: 0 0 0 20px;
 }
 
@@ -156,12 +155,24 @@ nav a:hover {
 /* css pagina produtos*/
 
 .container {
-  width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  padding: 100px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.produtos li {
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  background: #ffffff;
+  vertical-align: top;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #807e7e;
 }
 
 .cabelo,
@@ -169,16 +180,7 @@ nav a:hover {
 .cabelobarba {
   width: 400px;
   height: 500px;
-  text-align: center;
-  width: 30%;
-  background: #ffffff;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border: 3px solid #000000;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px #807e7e;
+  margin: 30px;
 }
 
 .produtos li:hover {
@@ -300,6 +302,10 @@ th {
     width: 85%;
   }
 
+  /*header {
+    flex-wrap: wrap;
+  }*/
+
   .logo {
     margin-bottom: 30px;
   }
@@ -316,7 +322,7 @@ th {
   }
 
   nav {
-    position: static;
+    position: relative;
   }
 
   nav li {
@@ -324,7 +330,7 @@ th {
   }
 
   nav a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .titulo-principal {
