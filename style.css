@@ -102,8 +102,8 @@ nav a:hover {
 
 .mapa p {
   font-size: 2.3em;
-  text-align: center;
-  margin-bottom: 2em;
+  text-align: justify;
+  margin-bottom: 1em;
 }
 
 .beneficios {
@@ -241,7 +241,7 @@ form label,
 form legend {
   display: block;
   font-size: 1.8em;
-  margin: 0 0 0.65em;
+  margin: 0 0 0.4em;
 }
 
 .input-padrao {
@@ -300,22 +300,106 @@ th {
 /*configuração adaptativa para mobile*/
 
 @media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .video,
+  .mapa-conteudo,
+  .mapa p {
+    width: 85%;
+  }
+
+  .caixa {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  nav li {
+    display: inline-flex;
+    margin: 0 0 0 1.5em;
+    margin-top: 0;
+  }
+
+  nav a {
+    font-size: 1.8em;
+  }
+
   .logo {
-    width: 200px;
+    width: 150px;
     margin-bottom: 10px;
   }
 
   .logo-branco {
     position: relative;
-    width: 200px;
-    margin: 0.65em auto;
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .banner {
+    margin-bottom: 0;
   }
 
   .principal {
-    margin: 0 1em;
+    margin: 0 auto;
+    padding: 1em 0;
+  }
+
+  .principal p {
+    margin: 0 auto;
+    font-size: 1.9em;
   }
 
   .utensilios {
-    width: 100px;
+    width: 120px;
+  }
+
+  .titulo-principal {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em 0 1em;
+  }
+
+  .mapa p {
+    font-size: 1.9em;
+  }
+
+  .conteudo-beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+  }
+
+  .lista-beneficios {
+    width: auto;
+    vertical-align: top;
+  }
+
+  .itens {
+    line-height: 1.5;
+  }
+
+  .imagem-beneficios {
+    width: 250px;
+    padding-top: 1em;
+  }
+
+  /* */
+
+  .produtos li {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .container {
+    padding: 30px 0;
+  }
+
+  /* */
+
+  form {
+    margin: 20px;
+    padding-left: 0.5em;
   }
 }
