@@ -18,7 +18,7 @@ header {
 
 .logo,
 .logo-branco {
-  width: 400px;
+  width: 250px;
   margin: 1.25em 0;
 }
 
@@ -30,14 +30,14 @@ nav {
 nav li {
   display: inline-flex;
   margin: 0 0 0 1.5em;
-  margin-top: 10em;
+  margin-top: 7em;
 }
 
 nav a {
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 1.7em;
   text-decoration: none;
 }
 
@@ -50,26 +50,26 @@ nav a:hover {
 
 .banner {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 3em;
 }
 
 .titulo-principal {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 2.3em;
   margin: 0 0 1em;
   clear: left;
   text-shadow: 2px 2px 0 #afaaaa; /*  eixo x y sombra na font*/
 }
 
 .principal {
-  padding: 3em 0 1em 0;
   background: #d4d3d3;
-  margin: 0 15em;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .principal p {
   margin: 0 0 1em;
-  font-size: 2.3em;
+  font-size: 1.5em;
   text-align: justify;
 }
 
@@ -82,13 +82,14 @@ nav a:hover {
 }
 
 .utensilios {
-  width: 300px;
+  width: 200px;
   float: left;
   margin: 0 1.25em 1.25em 0;
 }
 
 .mapa {
   background: #d4d3d3;
+  
 }
 
 .mapa-conteudo {
@@ -101,7 +102,7 @@ nav a:hover {
 }
 
 .mapa p {
-  font-size: 2.3em;
+  font-size: 1.5em;
   text-align: justify;
   margin-bottom: 1em;
 }
@@ -112,7 +113,7 @@ nav a:hover {
 }
 
 .conteudo-beneficios {
-  width: 768px;
+  width: 1200px;
   margin: 0 auto;
   font-size: 1.5em;
 }
