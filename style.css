@@ -13,6 +13,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo,
@@ -63,7 +64,7 @@ nav a:hover {
 .principal {
   background: #d4d3d3;
   margin: 0 auto;
-  width: 1200px;
+  width: 900px;
 }
 
 .principal p {
@@ -88,6 +89,7 @@ nav a:hover {
 
 .mapa {
   background: #d4d3d3;
+  padding: 3em 0;
   
 }
 
@@ -95,7 +97,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 980px;
+  width: 800px;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -113,14 +115,15 @@ nav a:hover {
 
 .conteudo-beneficios {
   display: flex;
-  justify-content: space-evenly;
-  width: 1200px;
+  justify-content: space-around;
+  width: 800px;
   margin: 0 auto;
   font-size: 1.4em;
+  
 }
 
 .lista-beneficios {
-  width: 50%;
+  width: auto;
   display: inline-block;
   vertical-align: top;
 }
@@ -302,103 +305,45 @@ th {
 
 /*configuração adaptativa para mobile*/
 
-@media screen and (max-width: 480px) {
-  .caixa,
-  .principal,
-  .conteudo-beneficios,
-  .video,
-  .mapa-conteudo,
-  .mapa p,
-  .beneficios {
-    width: 85%;
-  }
+@media screen and (max-width: 600px) {
 
-  .caixa {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  nav li {
-    display: inline-flex;
-    margin: 0 0 0 1.5em;
-    margin-top: 0;
-  }
-
-  nav a {
-    font-size: 1.5em;
-  }
-
-  .logo {
-    width: 150px;
-    margin-bottom: 10px;
-  }
-
-  .logo-branco {
-    position: relative;
-    width: 150px;
-    margin: 0 auto;
-  }
-
-  .banner {
-    margin-bottom: 0;
+  *{
+    margin: 20px;
   }
 
   .principal {
-    margin: 0 auto;
-    
-  }
+    width: auto;
+  } 
 
   .principal p {
-    margin: 0 auto;
-    font-size: 1.9em;
+    font-size: 100%;
   }
 
-  .utensilios {
-    width: 120px;
-  }
-
-  .titulo-principal {
-    text-align: center;
-    font-size: 2.5em;
-    margin: 1em 0 1em;
-  }
-
-  .mapa p {
-    font-size: 1.9em;
-  }
-
-  
-
-  .lista-beneficios {
-    width: auto;
-    vertical-align: top;
+  .conteudo-beneficios {
+    flex-direction: column;
+    padding-left: 50px;
+    width: auto;   
   }
 
   .imagem-beneficios {
+
+    width: 80%;
+
+  }
+
+  .video {
     width: auto;
   }
 
-  .itens {
-    line-height: 1.5;
-  }
-
-  .imagem-beneficios {
-    width: auto;
-    padding-top: 1em;
-  }
-
-  /* */
+  /* produtos.html */
 
   .produtos li {
     width: 90%;
     padding: 20px 10px;
   }
 
-  /* */
-
-  form {
-    margin: 20px;
-    padding-left: 0.5em;
+  .mapa-conteudo {
+    width: auto;
   }
+  
 }
