@@ -322,6 +322,10 @@ th {
     margin-top: 2em;
   }
 
+  nav a {
+    font-size: 1.2em;
+  }
+
   .principal {
     width: auto;
   } 
@@ -388,7 +392,7 @@ form legend {
 
   .enviar {
     width: 40%;
-    font-size: 1em;
+    font-size: 100%;
   }
 
   .btn-enviar {
