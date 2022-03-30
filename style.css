@@ -29,7 +29,7 @@ nav {
 
 nav li {
   display: inline-flex;
-  margin: 0 0 0 1.5em;
+  margin: 0 1em 0 0.5em;
   margin-top: 7em;
 }
 
@@ -159,6 +159,18 @@ nav a:hover {
   margin: 3em auto;
 }
 
+footer {
+  text-align: center;
+  background: url('./imagens/bg.jpg');
+  padding: 20px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
 /* css produtos.html*/
 
 .container {
@@ -219,18 +231,6 @@ nav a:hover {
   margin-top: 30px;
 }
 
-footer {
-  text-align: center;
-  background: url('./imagens/bg.jpg');
-  padding: 40px 0;
-}
-
-.copyright {
-  color: #ffffff;
-  font-size: 13px;
-  margin: 20px 0 0;
-}
-
 /* codigos contato.html */
 
 .formulario {
@@ -240,13 +240,13 @@ footer {
 
 form {
   margin: 40px;
-  padding-left: 18em;
+  padding-left: 9em;
 }
 
 form label,
 form legend {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0 0 0.4em;
 }
 
@@ -273,12 +273,13 @@ input:focus:required:invalid {
   background: #807e7e;
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.2em;
   border: none;
   border-radius: 5px;
   transition: 1s all;
   cursor: pointer;
   box-shadow: 5px 5px 10px #cccecc;
+
 }
 
 .enviar:hover {
@@ -325,24 +326,35 @@ th {
     width: auto;
   } 
 
+  .titulo-principal {
+    font-size: 1.9em;
+  }
+
   .principal p {
     font-size: 100%;
   }
 
   .conteudo-beneficios {
     flex-direction: column;
-    padding-left: 50px;
     width: auto;   
+    font-size: 100%;
+  }
+
+  .lista-beneficios {
+    vertical-align: top;
+    padding-bottom: 1em;
   }
 
   .imagem-beneficios {
-
-    width: 80%;
-
+    width: 100%;
   }
 
   .mapa-conteudo {
     width: auto;
+  }
+
+  .mapa p {
+    font-size: 100%;
   }
 
   .video {
@@ -356,6 +368,32 @@ th {
     padding: 20px 10px;
   }
 
- 
+  /* contato.html*/
+
+  form {
+    margin: 2em;
+    padding-left: 0;
+  }
+
+  .input-padrao {
+    width: 80%;
+  }
+
+  form label,
+form legend {
+  display: block;
+  font-size: 100%;
+  margin: 0;
+}
+
+  .enviar {
+    width: 40%;
+    font-size: 1em;
+  }
+
+  .btn-enviar {
+    display: flex;
+    justify-content: center;
+  }
   
 }
