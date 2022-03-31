@@ -339,6 +339,12 @@ th {
     font-size: 100%;
   }
 
+  .utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
   .conteudo-beneficios {
     flex-direction: column;
     width: auto;   
@@ -439,7 +445,7 @@ form legend {
   }
   
   nav li {
-    margin-top: 4em;
+    margin-top: 2em;
   }
 
   nav a {
@@ -459,6 +465,12 @@ form legend {
     font-size: 100%;
   }
 
+  .utensilios {
+    width: 160px;
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
   .conteudo-beneficios {
     flex-direction: column;
     width: auto;   
@@ -471,7 +483,7 @@ form legend {
   }
 
   .imagem-beneficios {
-    width: 100%;
+    width: 70%;
   }
 
   .mapa-conteudo {
@@ -509,8 +521,8 @@ form legend {
   }
 
   .cabelo,
-.barba,
-.cabelobarba {
+  .barba,
+  .cabelobarba {
     margin: 10px;
 }
 
@@ -527,7 +539,7 @@ form legend {
   }
 
   form label,
-form legend {
+  form legend {
   display: block;
   font-size: 100%;
   margin: 0;
