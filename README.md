@@ -17,10 +17,6 @@ Site criado a partir das aulas do Pedro Marins na Alura.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [React][reactjs]
-- [Styled-Components][styled]
-- [Typescript][type]
-- [Yarn][yarn]
 - [Vscode][vscode]
 
 ## 💡 Como executar o projeto
@@ -37,6 +33,6 @@ Esse projeto está elaborado para web:
 
 Este projeto esta sobe a licença MIT.
 
-Feito por Mariana Moioli Capelari 👋🏽 [Entre em contato!](https://www.linkedin.com/in/mariana-moioli-capelari/)
+Feito por Mariana Moioli Capelari [Entre em contato!](https://www.linkedin.com/in/mariana-moioli-capelari/)
 
 [vscode]: https://code.visualstudio.com/
