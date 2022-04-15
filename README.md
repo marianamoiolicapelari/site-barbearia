@@ -1,33 +1,25 @@
 # Site BarbeariaBarberShop
 
-Site criado a partir das aulas do Pedro Marins na Alura.
-
-
 ## 💻 Sobre o Projeto
+Site criado a partir das aulas do Pedro Marins na Alura, acrescentado alterações de design e layoult responsivo.
 
 ## 🎨 Layout
 
-### Web
 
-### Mobile
-
-## 💻 Apresentação do projeto funcionando abaixo
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Vscode][vscode]
+- 
 
 ## 💡 Como executar o projeto
 
-Esse projeto está elaborado para web:
+Esse projeto está elaborado para web.
+Para acessar o projeto basta acessar o link abaixo:
 
-1. Front End 
-
-💡 Para que o front end execute é necessário verificar os pré-requisitos
-
-### Pré-requisitos
+https://barbeariabarbershop.netlify.app
 
 ## 📝 Licença
 
