@@ -1,11 +1,11 @@
-# Site BarbeariaBarberShop
+# Site - Barbearia BarberShop
 
 ## 💻 Sobre o Projeto
 Site criado a partir das aulas do Pedro Marins na Alura, acrescentado alterações de design e layoult responsivo.
 
 ## 🎨 Layout
 
-
+![image](https://github.com/marianamoiolicapelari/site-barbearia/blob/main/imagens/img%20site%20pronto.jpg)
 
 ## 🛠 Tecnologias
 
@@ -16,8 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-Esse projeto está elaborado para web.<br>
-Para acessar o basta clicar no link abaixo:
+Esse projeto está elaborado para web. Para acessar basta clicar no link abaixo:
 
 https://barbeariabarbershop.netlify.app
 
