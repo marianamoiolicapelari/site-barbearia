@@ -16,7 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-Esse projeto está elaborado para web. Para acessar basta clicar no link abaixo:
+Esse projeto foi elaborado para web. Para acessar basta clicar no link abaixo:
 
 https://barbeariabarbershop.netlify.app
 
