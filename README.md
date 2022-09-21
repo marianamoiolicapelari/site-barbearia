@@ -22,6 +22,6 @@ https://barbeariabarbershop.netlify.app
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença MIT.
+Este projeto está sob a licença MIT.
 
 Feito por Mariana Moioli Capelari - [Entre em contato!](https://www.linkedin.com/in/mariana-moioli-capelari/)
